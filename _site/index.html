@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="de">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>SissiBar Design</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="SissiBar Design" />
+<meta name="author" content="Barbara Schlichthärle" />
+<meta property="og:locale" content="de" />
+<link rel="canonical" href="https://sissibardesign.sscit.de/" />
+<meta property="og:url" content="https://sissibardesign.sscit.de/" />
+<meta property="og:site_name" content="SissiBar Design" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="SissiBar Design" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"SissiBar Design","url":"https://sissibardesign.sscit.de/","author":{"@type":"Person","name":"Barbara Schlichthärle"},"name":"SissiBar Design","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<meta name="keywords" content="" />
+
+
+
+
+
+<link type="application/atom+xml" rel="alternate" href="https://sissibardesign.sscit.de/feed.xml" title="SissiBar Design" />
+    <link href='/assets/stylesheets/home.css' rel="stylesheet" type="text/css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script>window.Modernizr || document.write('<script src="/assets/javascripts/modernizr-2.8.3.min.js"><\/script>')</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="/assets/javascripts/jquery-3.3.1.min.js"><\/script>')
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+<script>
+    window.Pace || document.write('<script src="/assets/javascripts/pace.min.js"><\/script>')
+</script>
+
+    
+</head>
+
+<body>
+    
+
+    <ul id="menu">
+        <li data-menuanchor="bio"><a href="#bio">Biography</a></li>
+        <li data-menuanchor="social"><a href="#social">Social Links</a></li>
+    </ul>
+
+    <div id="section0" class="section" data-name="bio">
+
+        <!--[if IE]>
+    <p class="site-notice">Du verwendest einen veralteten Browser.</p>
+<![endif]-->
+<noscript>
+    <p class="site-notice">Diese Seite benötigt Javascript.</p>
+</noscript>
+
+
+        <div class="headings animated fadeInLeft">
+            <h1>SissiBar Design</h1>
+            <h2>Lettering und Watercolor für die Schule und Zuhause.</h2>
+            
+        </div>
+        <a class="btn-continue animated bounce" title="Mehr" href="#social"></a>
+    </div>
+
+    <div id="section1" class="section" data-name="social">
+        <h1 class="animated hidden">
+            <a class="btn-enter btn-light" title="Zum Blog" href="/blog/">Zum Blog</a>
+        </h1>
+        <div class="social-links animated hidden">
+            <a class="btn-light ico-rss" href="/feed.xml" rel="me" target="_blank" title="feed"></a>
+            
+            
+                
+            
+                
+            
+                
+                    <a class="btn-light ico-instagram" href="https://www.instagram.com/sissibar.design" rel="me" target="_blank" title="instagram"></a>
+                
+            
+                
+            
+                
+            
+                
+                    <a class="btn-light ico-twitter" href="https://twitter.com/SissiFrau" rel="me" target="_blank" title="twitter"></a>
+                
+            
+                
+            
+        </div>
+    </div>
+
+    <script src="/assets/javascripts/jquery.fullPage.min.js"></script>
+<script src="/assets/javascripts/jquery.easing.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.fn.fullpage({
+            anchors: ['bio', 'social'],
+            css3: true,
+            fixedElements: '.site-notice',
+            menu: '#menu',
+            navigation: true,
+            navigationPosition: 'right',
+            resize: false,
+            scrollingSpeed: 500,
+
+            afterLoad: function (anchorLink, index) {
+                if (index === 1) {
+                    $('#section0 .headings, #section0').removeClass('hidden').addClass('fadeInDown');
+                    $('.btn-continue').removeClass('hidden').addClass('bounce');
+                }
+                if (index === 2) {
+                    $('#section1 h1, #section1 .social-links').removeClass('hidden').addClass('fadeInUp');
+                }
+            },
+
+            onLeave: function (index, direction) {
+                if (index == 1 && direction == 'down') {
+                    $('#section0 .headings, #section0 .btn-continue').addClass('hidden').removeClass('bounce fadeInDown fadeInLeft');
+                }
+                if (index == 2 && direction == 'up') {
+                    $('#section1 h1, #section1 .social-links').addClass('hidden').removeClass('fadeInUp');
+                }
+            }
+        });
+    });
+
+</script>
+
+</body>
+
+</html>
