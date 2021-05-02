@@ -2,3 +2,5 @@
 .jekyll-cache
 .jekyll-metadata
 vendor
+readme.txt
+_site/readme.txt
