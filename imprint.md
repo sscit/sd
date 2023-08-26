@@ -7,8 +7,8 @@ description: Impressum
 # Impressum
 
 Barbara Schlichthärle\
-Chemnitzer Platz 11\
-80992 München
+Förderreutherstraße 13\
+87561 Oberstdorf
 
 E-Mail: [sissibar.design@sscit.de](mailto:sissibar.design@sscit.de)
 
@@ -16,8 +16,8 @@ E-Mail: [sissibar.design@sscit.de](mailto:sissibar.design@sscit.de)
 # Verantwortlicher für journalistisch-redaktionelle gestaltete Inhalte:
 
 Barbara Schlichthärle\
-Chemnitzer Platz 11\
-80992 München
+Förderreutherstraße 13\
+87561 Oberstdorf
 
 E-Mail: [sissibar.design@sscit.de](mailto:sissibar.design@sscit.de)
 
